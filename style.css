@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(https://images.pexels.com/photos/2108709/pexels-photo-2108709.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+
+
+}
+
+.login {
+  width: 340px;
+  height: 440px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 40px;
+  color:rgb(15, 14, 14);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  opacity: 2;
+  z-index: 9;
+  text-align: center;
+  text-shadow:1px 1px  10px #fff;
+
+}
+.pix {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: -67px;
+  left: 9px;
+  
+
+
+}
+h1 {
+  margin: 0;
+  padding: 10px 0 40px ;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  text-shadow:2px 2px 2px 8px #fff;
+}
+.login p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: rgb(236, 241, 241);
+  opacity: 4;
+  z-index: 4;
+
+
+}
+
+.login input {
+  width: 100%;
+  margin-bottom: 9px;
+
+}
+
+.pas-text{
+border: none;
+border-bottom: 1px solid rgb(247, 245, 245);
+background: transparent;
+outline: none;
+height: 40px;
+color: hsl(260, 20%, 94%);
+font-size: 16px;
+opacity: 7;
+text-align: center;
+
+}
+
+.sub-text {
+border:none;
+outline: none;
+height: 40px;
+background: #fb2525;
+color: white;
+font-size: 15px;
+border-radius: 20px;
+
+
+}
+.sub-text:hover
+{
+  cursor: pointer;
+  background :darkcyan;
+  color :#000;
+
+
+}
+.login a {
+  text-decoration: none;
+  font-size:14px ;
+  line-height: 20px;
+  color:#fff;
+  opacity: 2;
+  z-index: 1;
+
+}
+
+.login a:hover
+{
+  color:rgb(248, 10, 10);
+}
